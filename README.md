@@ -31,3 +31,4 @@ I have separately designed and colored each and every module in this file. With 
 As the state section was not required in our design thats why I've left it empty.
 
 URL of the Authored index.html file.
+[https://github.com/NahyanBinKhalid/open_charity/tree/master/authoring]
