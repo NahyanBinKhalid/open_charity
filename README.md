@@ -22,7 +22,7 @@ All HTML and TAG level resets I have defined here.
 Setting up the base of design. Created the generic classes like text-left, left, right etc.
 
 . layout.sass
-In Layout file I have created the layout classes. As I am very much fond of Bootstrap and Foundation Zurb thats why I have followed the concept of their Grid System. I have created 12 grids and created their classes for responsiveness in 4 levels. All those classes I have defined in sass.
+In Layout file I have created the layout classes. As I am very much fond of Bootstrap and Foundation Zurb thats why I have followed the concept of their Grid System. I have created 12 grids and created their classes for responsiveness in 4 levels. All those classes I have defined in sass. The Responsiveness of each screen is achieved in percentage.
 
 . module.sass
 I have separately designed and colored each and every module in this file. With separate Headings
