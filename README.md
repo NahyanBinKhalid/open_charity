@@ -1,8 +1,8 @@
 #Open Charity Authoring Explanation
 
 ###Technonologies and Methodologies Used
-. (SASS)[sass-lang.com] (CSS Preprocessor)
-. (SMACSS)[www.smacss.com] (Scalable and Modular Architecture for CSS)
+. (SASS)[http://sass-lang.com] (CSS Preprocessor)
+. (SMACSS)[http://www.smacss.com] (Scalable and Modular Architecture for CSS)
 . Slick Slider
 
 ###Media Queries
