@@ -1,0 +1,40 @@
+
+name = Open Charity
+description = A Responsive Theme for Drupal Without using any CSS FrameWork.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/fonts/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/module.css
+stylesheets[all][] = css/state.css
+stylesheets[all][] = js/slick/slick.css
+stylesheets[all][] = js/slick/slick-theme.css
+
+scripts[] = js/jquery-3.1.1.min.js
+scripts[] = js/slick/slick.js
+
+regions[header] = Header
+regions[banner] = Banner
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+; regions[brand] = Brand
+; regions[slideshow] = Slideshow
+; regions[events] = Events
+; regions[groups] = Groups
+; regions[missions] = Missions
+; regions[members] = Members
+; regions[blog] = Blog
+; regions[social] = Social
+; regions[copyright] = Copyright
+; regions[content] = Content
+
+
+; Information added by Drupal.org packaging script on 2016-12-07
+version = "7.53"
+project = "drupal"
+datestamp = "1481152423"
+
