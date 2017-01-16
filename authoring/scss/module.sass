@@ -1,0 +1,381 @@
+@import font-face
+@include fontFace("Museo Sans", "fonts/MuseoSans_500.otf", "normal", 500)
+@include fontFace("Museo Sans Rounded", "fonts/MuseoSansRounded_300.otf", "normal", 300)
+
+$extra_small: 768px
+$small_start: 769px
+$small_end: 992px
+$medium_start: 993px
+$medium_end: 1200px
+$large: 1200px
+
+$gutter: 30px
+$column: 70px
+
+$primary_color: #575656
+$secondary_color: #61c0bd
+$document_color: #ffffff
+$special_text_color: #5b6172
+$border_color: #dedfe2
+$grey_module_color: #f1f2f5
+$dark_grey_module_color: #454850
+$dark_grey_text_color: #979eb1
+$base_font: Open Sans, sans-serif
+
+// GREY PANELS
+.grey
+	background: $grey_module_color
+
+.dark-grey
+	background: $dark_grey_module_color
+	color: $dark_grey_text_color
+
+.dark-grey a
+	color: $secondary_color
+
+.dark-grey a:hover,
+.dark-grey a:focus
+	color: $grey_module_color
+
+.dark-grey hr
+	border: 1px solid #51555d
+// GREY PANELS
+
+// BUTTONS
+.btn,
+.btn-large,
+.btn-outline,
+.btn-outline-large
+	font-family: "Museo Sans"
+	display: inline-block
+	text-transform: uppercase
+
+.btn,
+.btn-large
+	background: #5fc0c3
+	color: #ffffff
+
+.btn:hover,
+.btn:focus,
+.btn-large:hover,
+.btn-large:focus
+	color: #ffffff
+	background: $primary_color
+
+.btn,
+.btn-outline
+	padding: 15px 28px
+	
+.btn-large,
+.btn-outline-large
+	padding: 15px 48px
+	
+.btn-outline,
+.btn-outline-large
+	color: $secondary_color
+	border: 1px solid $secondary_color
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline-large:hover,
+.btn-outline-large:focus,
+	color: $primary_color
+	border: 1px solid $primary_color
+
+.btn-outline.active,
+.btn-outline-large.active
+	color: $secondary_color
+	border: 1px solid $secondary_color
+	
+.btn-toggle
+	border: none
+	outline: none
+	background: none
+	color: $secondary_color
+	margin-top: -75px
+
+.btn-toggle:hover,
+.btn-toggle:focus
+	color: $primary_color
+
+// BUTTONS
+
+// BRAND
+.brand
+	padding-top: 30px
+	padding-bottom: 30px
+
+.brand a
+	display: inline-block
+// BRAND
+	
+// NAVIGATION
+.navigation
+	font-family: "Museo Sans"
+	padding-top: 16px
+	padding-bottom: 16px
+
+.navigation li
+	padding-left: 15px
+	padding-right: 15px
+
+.navigation a
+	text-transform: uppercase
+
+.navigation .icon
+	display: none
+// NAVIGATION
+
+// SLIDESHOW
+.slideshow
+	color: #ffffff
+	overflow: hidden
+
+.banner
+	padding-top: 90px
+	padding-bottom: 90px
+
+.banner h1
+	font-family: "Museo Sans Rounded"
+	font-size: 4.28571429em
+	margin-bottom: 45px
+
+.banner .description p
+	margin-bottom: 30px
+	line-height: 2
+
+.banner .description .big
+	font-size: 1.28571429em
+	
+#banner-1
+	background: url("../images/banners/banner-1.jpg") no-repeat
+	background-size: 100%
+	
+#banner-2
+	background: url("../images/banners/banner-2.jpg") no-repeat
+	background-size: 100%
+	
+#banner-3
+	background: url("../images/banners/banner-3.jpg") no-repeat
+	background-size: 100%
+	
+#banner-4
+	background: url("../images/banners/banner-4.jpg") no-repeat
+	background-size: 100%
+	
+#banner-5
+	background: url("../images/banners/banner-5.jpg") no-repeat
+	background-size: 100%
+	
+#banner-6
+	background: url("../images/banners/banner-6.jpg") no-repeat
+	background-size: 100%
+// SLIDESHOW
+
+// EVENTS
+.events
+	padding-top: 40px
+	padding-bottom: 40px
+
+.event date
+	display: block
+	font-family: "Museo Sans"
+	font-size: 1.28571429em
+	margin-bottom: 4px
+
+.event address
+	font-style: normal
+	color: $special_text_color
+// EVENTS
+
+// GROUPS
+.groups
+	padding-top: 40px
+	padding-bottom: 40px
+
+.groups h1
+	margin-bottom: 48px
+
+.group h3
+	font-size: 1.28571429em
+	margin-top: 48px
+	margin-bottom: 24px
+
+.group .description
+	margin-bottom: 24px
+	color: $special_text_color
+// GROUPS
+
+// MISSIONS
+.missions
+	padding-top: 40px
+	padding-bottom: 40px
+
+.missions h1
+	margin-bottom: 48px
+
+.missions .partners,
+.missions .welcome
+	color: $special_text_color
+	margin-bottom: 30px
+
+.missions .welcome
+	font-family: "Museo Sans"
+	font-size: 1.28571429em
+
+.mission
+	margin-top: 70px
+	background: #ffffff
+	padding-bottom: 32px
+
+.mission img
+	margin-top: -52px
+	
+.mission h4
+	font-size: 1.28571429em
+	margin-top: 6px
+	margin-bottom: 24px
+
+.mission .description
+	margin-bottom: 24px
+	color: $special_text_color
+// MISSIONS
+
+// MEMBERS
+.members
+	padding-top: 40px
+	padding-bottom: 40px
+
+.members h1
+	margin-bottom: 48px
+
+.member
+	margin-left: 50px
+	margin-right: 50px
+// MEMBERS
+
+// BLOG
+.blog
+	padding-top: 30px
+	padding-bottom: 30px
+
+.blog h1
+	margin-bottom: 36px
+
+.article .title
+	font-family: $base_font
+	font-weight: 600
+
+.article article
+	margin-bottom: 36px
+
+.article article,
+.article date
+	color: $special_text_color
+// BLOG
+
+// SOCIAL
+.social
+	padding-top: 36px
+	padding-bottom: 2px
+// SOCIAL
+
+// COPYRIGHT
+.copyright
+	padding-bottom: 6px
+// COPYRIGHT
+
+@media screen and (max-width: $extra_small)
+	// NAVIGATION
+	.navigation .nav
+		display: none
+	
+	.navigation nav
+		max-height: 200px
+		width: 100%
+	
+	.navigation .icon
+		display: inline-block
+	
+	.navigation nav li
+		display: block
+		text-align: center
+	
+	.navigation nav li a
+		background: #f1f2f5
+		display: block
+		padding: 10px
+		border-bottom: 1px solid #454850
+	// NAVIGATION
+
+	// SLIDESHOW
+	.banner
+		padding-top: 5px
+		padding-bottom: 5px
+
+	.banner h1
+		font-family: "Museo Sans Rounded"
+		font-size: 1em
+		margin-bottom: 5px
+
+	.banner .description p
+		font-size: 0.75em
+		margin-bottom: 5px
+		margin-top: 0
+		line-height: 1.25
+
+	.banner .description .big
+		font-size: 0.75em
+	// SLIDESHOW
+
+	// EVENTS
+	.events .register
+		margin-top: 20px
+	// EVENTS
+	
+@media screen and (min-width: $small_start)
+	// NAVIGATION
+	.navigation .nav
+		display: block !important
+	// NAVIGATION
+	
+	// SLIDESHOW
+	.banner
+		padding-top: 20px
+		padding-bottom: 20px
+
+	.banner h1
+		font-family: "Museo Sans Rounded"
+		font-size: 3em
+		margin-bottom: 15px
+
+	.banner .description p
+		margin-bottom: 10px
+		line-height: 1.5
+
+	.banner .description .big
+		font-size: 1.28571429em
+	// SLIDESHOW
+	
+@media screen and (min-width: $medium_start)
+	// SLIDESHOW
+	.banner
+		padding-top: 30px
+		padding-bottom: 30px
+
+	.banner h1
+		font-family: "Museo Sans Rounded"
+		font-size: 4.28571429em
+		margin-bottom: 20px
+
+	.banner .description p
+		margin-bottom: 10px
+		line-height: 1.75
+
+	.banner .description .big
+		font-size: 1.28571429em
+	// SLIDESHOW
+	
+@media screen and (min-width: $large)
+	
+	
